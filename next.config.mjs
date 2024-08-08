@@ -1,4 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+// next.config.js
 
-export default nextConfig;
+module.exports = {
+    images: {
+      domains: ['v5.airtableusercontent.com'],
+    },
+  };
+  
